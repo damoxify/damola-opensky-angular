@@ -1,5 +1,5 @@
 <div class="login-container">
-    <!-- <img class="film" src="assets/images/image.jpg" alt="" /> -->
+    <img class="film" src="assets/images/image.jpg" alt="" />
     <div class="logo"> Damola Opensky Airlines</div>
     <div class="desc">
       Lagos in Nigeria has many beautiful beaches and must-see attractions. 
@@ -14,6 +14,7 @@
         <input
           type="text"
           name="uname"
+          placeholder="Type your username"
           class="form-control"
           [(ngModel)]="username"
         />
@@ -23,13 +24,14 @@
         <input
           type="password"
           name="pword"
+          placeholder="Type your password"
           class="form-control"
           [(ngModel)]="password"
         />
       </div>
       <div class="btn-container">
         <div class="error">{{ errorMsg }}</div>
-        <button class="btn btn-dark" (click)="login()">Login</button>
+        <button class="btn " (click)="login()">Login</button>
       </div>
     </div>
   </div>

@@ -10,6 +10,9 @@ import { FlightsComponent } from './flights/flights.component';
 import { TracksComponent } from './tracks/tracks.component';
 import { FormsModule } from '@angular/forms';
 
+
+
+
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,13 +20,12 @@ import { FormsModule } from '@angular/forms';
     HomeComponent,
     StatesComponent,
     FlightsComponent,
-    TracksComponent
+    TracksComponent,
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     FormsModule,
-  
   ],
   providers: [],
   bootstrap: [AppComponent]
